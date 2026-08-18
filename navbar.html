@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar</title>
+  <style>
+    /* Reset margin dan font dasar */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Styling container utama navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #1e293b;
+      padding: 1rem 2rem;
+    }
+
+    /* Styling Logo / Brand */
+    .navbar-brand {
+      color: #ffffff;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    /* Styling daftar menu */
+    .nav-links {
+      display: flex;
+      list-style: none;
+      gap: 1.5rem;
+    }
+
+    /* Styling link menu */
+    .nav-links a {
+      color: #cbd5e1;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    /* Efek hover pada link */
+    .nav-links a:hover {
+      color: #38bdf8;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="#" class="navbar-brand">Mapil Store</a>
+    <ul class="nav-links">
+      <li><a href="#">Beranda</a></li>
+      <li><a href="#">Fitur</a></li>
+      <li><a href="#">Tentang</a></li>
+      <li><a href="#">Kontak</a></li>
+    </ul>
+  </nav>
+
+</body>
+</html>
